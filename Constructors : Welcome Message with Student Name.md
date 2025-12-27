@@ -11,9 +11,19 @@ To write a Python program that creates a **Student** class with a **default cons
 5. **Execute the Program**: Instantiate the `Student` class and call the `show` method.
 
 ## 🧾 Program
+```
+class Student:
+    def __init__(self):
+        self.name = input("Enter student name: ")
 
-Add code here
+    def display(self):
+        print("Welcome,", self.name)
 
+# Create object of Student class
+s = Student()
+s.display()
+```
 ## Output
+ <img width="533" height="711" alt="image" src="https://github.com/user-attachments/assets/4725b3c2-0e24-43de-b74d-9bc650e90188" />
 
 ## Result
